@@ -1,3 +1,5 @@
+Squirrel: A Switching Hyperparameter Optimizer
+
 Motivated by the fact that different optimizers work well on different problems, our approach switches between different optimizers. Since the team names on the competition's leaderboard were randomly generated, consisting of an adjective and an animal with the same initial letter, we called our approach the Switching Squirrel, short, Squirrel.
 
 In our Squirrel framework, we switched between the following components: 
