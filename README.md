@@ -9,3 +9,17 @@ In our Squirrel framework, we switched between the following components:
 
 ## Results 
 Our Squirrel **ranked 3rd** with a **score of 92.551** on [offical learderboard](https://bbochallenge.com/leaderboard), and also won **1st place** in [alternate leaderboard](https://bbochallenge.com/altleaderboard) (with a score of **94.845476** and the organizers' bootstrap analysis showing a 100% confidence in this 1st place ranking). 
+
+## Team Members
+* Noor Awad
+* Gresa Shala 
+* Difan Deng
+* Neeratyoy Mallik
+* Matthias Feurer
+* Katharina Eggensperger
+* Andre' Biedenkapp
+* Diederick Vermetten
+* Hao Wang
+* Carola Doerr
+* Marius Lindauer
+* Frank Hutter
