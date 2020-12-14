@@ -10,6 +10,18 @@ In our Squirrel framework, we switched between the following components:
 ## Results 
 Our Squirrel **ranked 3rd** with a **score of 92.551** on [offical learderboard](https://bbochallenge.com/leaderboard), and also won **1st place** in [alternate leaderboard](https://bbochallenge.com/altleaderboard) (with a score of **94.845476** and the organizers' bootstrap analysis showing a 100% confidence in this 1st place ranking). 
 
+
+## Run Squirrel locally
+```console
+>  ./run_local.sh squirrel-optimizer/ 3
+...
+--------------------
+Final score `100 x (1-loss)` for leaderboard:
+optimizer
+squirrel-optimizer_0.0.6_6434ac2    102.238945
+```
+
+
 ## Team Members
 * Noor Awad
 * Gresa Shala 
