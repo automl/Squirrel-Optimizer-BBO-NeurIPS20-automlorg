@@ -12,6 +12,17 @@ Our Squirrel **ranked 3rd** with a **score of 92.551** on [offical learderboard]
 
 
 ## Run Squirrel locally
+We used the [Bayesmark](https://github.com/uber/bayesmark) benchmark framework for the local experiments with Squirrel. See the Bayesmark [documentation](https://bayesmark.readthedocs.io/en/latest/) for the details.
+### Create and activate virtual environment
+```console
+> python3 -m venv venv  # Please use Python 3.6.10.
+> source venv/bin/activate
+```
+### Install requirements
+```console
+> pip install -r environment.txt -r squirrel-optimizer/requirements.txt
+```
+### Run Bayesmark
 ```console
 >  ./run_local.sh squirrel-optimizer/ 3
 ...
