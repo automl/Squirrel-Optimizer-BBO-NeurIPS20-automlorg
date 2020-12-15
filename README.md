@@ -32,7 +32,6 @@ optimizer
 squirrel-optimizer_0.0.6_6434ac2    102.238945
 ```
 
-
 ## Team Members
 * Noor Awad
 * Gresa Shala 
@@ -46,3 +45,5 @@ squirrel-optimizer_0.0.6_6434ac2    102.238945
 * Carola Doerr
 * Marius Lindauer
 * Frank Hutter
+
+## License
