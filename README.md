@@ -22,7 +22,7 @@ We used the [Bayesmark](https://github.com/uber/bayesmark) benchmark framework f
 ```console
 > pip install -r environment.txt -r squirrel-optimizer/requirements.txt
 ```
-### Run Bayesmark
+### Run Squirrel on Bayesmark
 ```console
 >  ./run_local.sh squirrel-optimizer/ 3
 ...
