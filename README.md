@@ -47,3 +47,4 @@ squirrel-optimizer_0.0.6_6434ac2    102.238945
 * Frank Hutter
 
 ## License
+Our implementation is released under Apache License 2.0.
