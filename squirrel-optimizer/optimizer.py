@@ -413,8 +413,6 @@ class SwitchingOptimizer(AbstractOptimizer):
             #  to a working optimizer, the evaluations can still be used in expected format
             if self.cur_opt_str == "Warmstart":
                 x_guess = self.original_cs.sample_configuration(n_suggestions)
-                if n_suggestions == 1:
-                    x_guess = [x_guess]
                 x_guess_to_keep = []
                 for guess in x_guess:
                     transformed_guess = dict()
@@ -438,8 +436,6 @@ class SwitchingOptimizer(AbstractOptimizer):
                         x_guess[i] = self.original_cs.sample_configuration(1)
                         # routine to copy x_guess[i] to self._x_guess[i], while handling
                         # the types and transforms associated
-                        import pdb
-                        pdb.set_trace()
                         for pname in self._api_config.keys():
                             if pname in self._par:
                                 pspace = self._api_config[pname]['space']

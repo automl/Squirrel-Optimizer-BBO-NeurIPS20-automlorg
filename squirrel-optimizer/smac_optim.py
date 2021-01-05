@@ -343,6 +343,8 @@ class SMAC4EPMOpimizer(AbstractOptimizer):
                 print(time.time() - start_time)
 
         next_guess = [{} for _ in range(n_suggestions)]
+        while len(self.next_evaluations) < len(range(n_suggestions)):
+            self.next_evaluations.append(self.cs.sample_configuration())
         for i in range(n_suggestions):
             eval_next = self.next_evaluations.pop(0)
             next_guess[i] = eval_next.get_dictionary()
